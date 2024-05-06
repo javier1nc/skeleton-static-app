@@ -18,11 +18,13 @@ async function doPost () {
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
-	<input bind:value={foo} />
-    <input bind:value={bar} />
-    <button type="button" on:click={doPost}>
-    Post it.
-    </button>
+    <label class="label">
+        <input class="input" type="text" placeholder="Input" bind:value={foo} />
+    </label>
+    <label class="label">
+        <input class="input" type="text" placeholder="Input" bind:value={bar}/>
+    </label>
+    <button type="button" class="btn variant-filled" on:click={doPost}>Post it.</button>
 </div>
 
 <p>
