@@ -26,6 +26,8 @@
 <a href="/">Home</a>
 <br>
 <a href="/route">Route</a>
+<br>
+<a href="/post">Post</a>
 </nav>
 
 <slot />
