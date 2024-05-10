@@ -20,9 +20,10 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
-	
+
+	//Initialize Stores
 	import { initializeStores, Modal } from '@skeletonlabs/skeleton';
-	
+
 	initializeStores();
 
 </script>
@@ -32,6 +33,8 @@
 <a href="/route">Route</a>
 <br>
 <a href="/post">Post</a>
+<br>
+<a href="/modal">Modal</a>
 </nav>
 
 <Modal />
