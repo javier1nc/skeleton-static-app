@@ -35,6 +35,8 @@
 <a href="/post">Post</a>
 <br>
 <a href="/modal">Modal</a>
+<br>
+<a href="/superforms">Superforms</a>
 </nav>
 
 <Modal />
