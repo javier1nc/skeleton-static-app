@@ -1,5 +1,6 @@
 <script lang="ts">
   import { superForm } from 'sveltekit-superforms';
+  import SuperDebug from 'sveltekit-superforms';
 
   export let data;
 
@@ -15,5 +16,9 @@
   <label for="email">E-mail</label>
   <input class="input"  type="email" name="email" bind:value={$form.email} />
 
-  <div><button>Submit</button></div>
+  <div>
+    <button type="button" class="btn variant-filled">Submit</button>
+  </div>
 </form>
+
+<SuperDebug data={$form} />
