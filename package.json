@@ -42,6 +42,8 @@
   "dependencies": {
     "@floating-ui/dom": "1.6.5",
     "@sveltejs/adapter-static": "^3.0.1",
+    "date-fns": "^3.6.0",
+    "date-picker-svelte": "^2.13.0",
     "highlight.js": "11.9.0",
     "sveltekit-superforms": "^2.14.0"
   }

@@ -37,6 +37,8 @@
 <a href="/modal">Modal</a>
 <br>
 <a href="/superforms">Superforms</a>
+<br>
+<a href="/datepicker">Datepicker</a>
 </nav>
 
 <Modal />
